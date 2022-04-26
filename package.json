@@ -1,0 +1,45 @@
+{
+  "name": "@meema/renovate-config",
+  "version": "0.0.1",
+  "description": "Meema Labs presets for Renovate",
+  "contributors": [
+    "Chris Breuer <chris@meema.xyz>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/meemalabs/renovate-config-meema",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meemalabs/renovate-config-meema.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meemalabs/renovate-config-meema/issues"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator",
+    "test": "npm run validate",
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "prepare": "npm run test"
+  },
+  "files": [],
+  "renovate-config": {
+    "default": {
+      "description": "Default config for Meema repositories",
+      "extends": [
+        "config:base",
+        "group:allNonMajor",
+        ":semanticCommitTypeAll(chore)"
+      ],
+      "meteor": {
+        "enabled": false
+      },
+      "rangeStrategy": "bump",
+      "npm": {
+        "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+      }
+    }
+  },
+  "devDependencies": {
+    "renovate": "^19.0.0",
+    "standard-version": "^9.0.0"
+  }
+}
