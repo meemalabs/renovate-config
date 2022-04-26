@@ -1,5 +1,5 @@
 {
-  "name": "@meema/renovate-config",
+  "name": "@meemalabs/renovate-config",
   "version": "0.0.2",
   "description": "Meema Labs presets for the Renovate bot.",
   "contributors": [
@@ -43,14 +43,5 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "packageRules": [
-    {
-      "renovate": "^32.32.1",
-      "standard-version": "^9.0.0",
-      "matchDepTypes": [
-        "devDependencies"
-      ]
-    }
-  ]
+  }
 }
