@@ -16,9 +16,7 @@
   },
   "scripts": {
     "validate": "renovate-config-validator",
-    "test": "npm run validate",
-    "release": "standard-version && git push --follow-tags && npm publish",
-    "prepare": "npm run test"
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "files": [],
   "renovate-config": {
