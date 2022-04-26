@@ -23,4 +23,4 @@ Add this into your `renovate.json` file:
 
 The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 
-Made with ❤️ by Meema Labs
+Made with ❤️ by Meema Labs.
