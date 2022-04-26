@@ -1,6 +1,6 @@
 # Renovate Bot Meema Preset
 
-Meema presets for [Renovate](https://github.com/renovatebot/renovate) tool.
+Meema presets for the [Renovate](https://github.com/renovatebot/renovate) bot.
 
 ## Usage 💡
 

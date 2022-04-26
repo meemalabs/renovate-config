@@ -1,6 +1,6 @@
 {
   "name": "@meema/renovate-config",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "Meema Labs presets for Renovate",
   "contributors": [
     "Chris Breuer <chris@meema.xyz>"
@@ -35,6 +35,10 @@
         "commitMessageTopic": "{{prettyDepType}} {{depName}}"
       }
     }
+  },
+  "devDependencies": {
+    "renovate": "^32.32.1",
+    "standard-version": "^9.0.0"
   },
   "packageRules": [
     {
