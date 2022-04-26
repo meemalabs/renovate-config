@@ -36,8 +36,13 @@
       }
     }
   },
-  "devDependencies": {
-    "renovate": "^19.0.0",
-    "standard-version": "^9.0.0"
-  }
+  "packageRules": [
+    {
+      "renovate": "^19.0.0",
+      "standard-version": "^9.0.0",
+      "matchDepTypes": [
+        "devDependencies"
+      ]
+    }
+  ]
 }
