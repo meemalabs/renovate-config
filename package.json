@@ -1,6 +1,6 @@
 {
   "name": "@meemalabs/renovate-config",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Meema Labs presets for the Renovate bot.",
   "contributors": [
     "Chris Breuer <chris@meema.xyz>"
