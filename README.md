@@ -9,7 +9,7 @@ Add this into your `renovate.json` file:
 ```json
 {
   "extends": [
-    "@meema"
+    "@meemalabs"
   ]
 }
 ```
