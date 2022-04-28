@@ -1,11 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
-  renovate: ^32.32.3
+  renovate: ^32.32.6
   standard-version: ^9.3.2
 
 devDependencies:
-  renovate: 32.32.3
+  renovate: 32.32.6
   standard-version: 9.3.2
 
 packages:
@@ -1546,8 +1546,8 @@ packages:
     dev: true
     optional: true
 
-  /cacache/16.0.5:
-    resolution: {integrity: sha512-8s/08Kgu5sk9JcmOrekdUTM7cPPewz2FIQWVQOGOCdWPMRxBUD10WXApQD39Qvg1y5AKXcjo+pnOHkeveEFHCA==}
+  /cacache/16.0.6:
+    resolution: {integrity: sha512-9a/MLxGaw3LEGes0HaPez2RgZWDV6X0jrgChsuxfEh8xoDoYGxaGrkMe7Dlyjrb655tA/b8fX0qlUg6Ii5MBvw==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     dependencies:
       '@npmcli/fs': 2.1.0
@@ -4240,8 +4240,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.32.3:
-    resolution: {integrity: sha512-Mdoc1WQshkKvRLbAw7TVLeKQ4JCvUdRVE79Yqw+6viCVDvG1KrgOvVrdIK/fXYY2LG1vM2AmzuHPDYUpYj6gQg==}
+  /renovate/32.32.6:
+    resolution: {integrity: sha512-0a/SlJJiyq00fsM3rstVVfQZpgmLtIVUI9dUjDFTx1vHyX5iLXtL/BwprIQYkcTR1DYBICzQKmx6sQ9Wu/u1Og==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4259,7 +4259,7 @@ packages:
       auth-header: 1.0.0
       azure-devops-node-api: 11.1.1
       bunyan: 1.8.15
-      cacache: 16.0.5
+      cacache: 16.0.6
       chalk: 4.1.2
       changelog-filename-regex: 2.0.1
       clean-git-ref: 2.0.1
