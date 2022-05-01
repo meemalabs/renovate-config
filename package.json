@@ -37,7 +37,7 @@
     }
   },
   "devDependencies": {
-    "renovate": "^32.32.6",
+    "renovate": "^32.36.0",
     "standard-version": "^9.3.2"
   },
   "publishConfig": {
