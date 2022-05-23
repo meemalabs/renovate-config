@@ -1,11 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
-  renovate: ^32.52.3
+  renovate: ^32.64.4
   standard-version: ^9.3.2
 
 devDependencies:
-  renovate: 32.52.3
+  renovate: 32.64.4
   standard-version: 9.3.2
 
 packages:
@@ -1030,15 +1030,15 @@ packages:
       '@seald-io/nedb': 3.0.0
     dev: true
 
-  /@jamiemagee/osv-offline/1.2.5:
-    resolution: {integrity: sha512-qKqJXsVdvKVRzL2mWrwhLz/uJ8w3Y4OEhSCLsqYY52lPaizNEX350uzNc/HVpYox9xoOUqwALZcTcpXxEJuENA==}
+  /@jamiemagee/osv-offline/1.2.6:
+    resolution: {integrity: sha512-PPIKlgCzHbKKtg4uzkwMeS9UjylFK4FMuQXeXDuPiAgJRj9Aphw+9US7a4kf0yaxgebHjOFCex7WG08MMx0hnw==}
     dependencies:
       '@jamiemagee/osv-offline-db': 1.1.4
       '@octokit/rest': 18.12.0
       adm-zip: 0.5.9
       fs-extra: 10.0.0
       got: 11.8.3
-      luxon: 2.3.2
+      luxon: 2.4.0
     transitivePeerDependencies:
       - encoding
     dev: true
@@ -1502,7 +1502,7 @@ packages:
       '@yarnpkg/fslib': 2.6.1
       '@yarnpkg/json-proxy': 2.1.1
       '@yarnpkg/libzip': 2.2.4
-      '@yarnpkg/parsers': 2.5.0
+      '@yarnpkg/parsers': 2.5.1
       '@yarnpkg/pnp': 3.2.0
       '@yarnpkg/shell': 3.2.0
       camelcase: 5.3.1
@@ -1555,8 +1555,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@yarnpkg/parsers/2.5.0:
-    resolution: {integrity: sha512-LEf3Ex+yAXSTpJKx4CEuJD1ngwDGC3pqkgPuIStThjDWpEG+p3yMDDvzES/c+9ADFQJjBQJfC0TMleV4UTNZkw==}
+  /@yarnpkg/parsers/2.5.1:
+    resolution: {integrity: sha512-KtYN6Ez3x753vPF9rETxNTPnPjeaHY11Exlpqb4eTII7WRlnGiZ5rvvQBau4R20Ik5KBv+vS3EJEcHyCunwzzw==}
     engines: {node: '>=12 <14 || 14.2 - 14.9 || >14.10.0'}
     dependencies:
       js-yaml: 3.14.1
@@ -1577,7 +1577,7 @@ packages:
     hasBin: true
     dependencies:
       '@yarnpkg/fslib': 2.6.1
-      '@yarnpkg/parsers': 2.5.0
+      '@yarnpkg/parsers': 2.5.1
       chalk: 3.0.0
       clipanion: 3.2.0-rc.10
       cross-spawn: 7.0.3
@@ -3580,11 +3580,6 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /luxon/2.3.2:
-    resolution: {integrity: sha512-MlAQQVMFhGk4WUA6gpfsy0QycnKP0+NlCBJRVRNPxxSIbjrCbQ65nrpJD3FVyJNZLuJ0uoqL57ye6BmDYgHaSw==}
-    engines: {node: '>=12'}
-    dev: true
-
   /luxon/2.4.0:
     resolution: {integrity: sha512-w+NAwWOUL5hO0SgwOHsMBAmZ15SoknmQXhSO0hIbJCAmPKSsGeK8MlmhYh2w6Iib38IxN2M+/ooXWLbeis7GuA==}
     engines: {node: '>=12'}
@@ -4530,8 +4525,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/32.52.3:
-    resolution: {integrity: sha512-hXUZXuQ/IYDh0lahnNYH1H3aZP3LvFvm3lYN/HT7ri7UatrNZShLJB37ExzcG7cowYrXg0cnGsHL/S/3Yuj7Ng==}
+  /renovate/32.64.4:
+    resolution: {integrity: sha512-KNJdIDJkPkckC0PEclEmWUmlhiB4efZvJvewaf3/6CVxLVFqEOxEAVfp5bhbzmEqNK8v0pCW3aXCpG8AjIWgkg==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4541,12 +4536,12 @@ packages:
       '@breejs/later': 4.1.0
       '@cheap-glitch/mi-cron': 1.0.1
       '@iarna/toml': 2.2.5
-      '@jamiemagee/osv-offline': 1.2.5
+      '@jamiemagee/osv-offline': 1.2.6
       '@renovatebot/pep440': 2.1.1
       '@renovatebot/ruby-semver': 1.1.3
       '@sindresorhus/is': 4.6.0
       '@yarnpkg/core': 3.1.0
-      '@yarnpkg/parsers': 2.5.0
+      '@yarnpkg/parsers': 2.5.1
       auth-header: 1.0.0
       azure-devops-node-api: 11.1.1
       bunyan: 1.8.15
