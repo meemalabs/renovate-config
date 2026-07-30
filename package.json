@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "renovate": "^32.74.3",
-    "standard-version": "^9.3.2"
+    "commit-and-tag-version": "^9.5.0"
   },
   "publishConfig": {
     "access": "public",
